@@ -4,7 +4,7 @@
     align-items: center;
     padding: 80px 30px;
     gap: 50px;
-    background-color: #f9f9f9; /* fundo leve */
+    background-color: #f9f9f9;
 }
 
 .sobre_texto {
@@ -33,24 +33,4 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-    .sobre {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .sobre_texto h2 {
-        font-size: 2rem;
-    }
-
-    .sobre_texto p {
-        font-size: 1rem;
-    }
-
-    .sobre_imagem {
-        margin-top: 30px;
-    }
 }

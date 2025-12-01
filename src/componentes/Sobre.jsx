@@ -1,5 +1,5 @@
 import styles from './css/Sobre.module.css';
-import imagemSobre from '../assets/imagens/Sobre.png'; // Substitua pela sua imagem
+import imagemSobre from '../assets/imagens/Sobre.png';
 
 function Sobre() {
   return (

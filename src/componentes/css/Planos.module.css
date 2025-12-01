@@ -1,0 +1,82 @@
+.planos {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f7faff;
+}
+
+.planos h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #004aad;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+/* CARDS CONTAINER */
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* CARD BASE */
+.card {
+  background: white;
+  padding: 30px;
+  width: 310px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  border: 2px solid #e3e6ea;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #003c8f;
+}
+
+.preco {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0 15px;
+  color: #00a86b;
+}
+
+.desc {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* LISTA */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.card ul li {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* BOTÃO */
+.card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #004aad;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background: #003580;
+}
