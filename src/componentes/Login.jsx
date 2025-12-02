@@ -2,24 +2,24 @@ import styles from "./css/Login.module.css";
 
 function Login() {
   return (
-    <section className={styles.loginSection} id="login">
+    <section className={styles.secaologin} id="login">
       <div className={styles.card}>
 
-        <h2 className={styles.title}>Entrar no CoTask</h2>
+        <h2 className={styles.titulo}>Entrar no CoTask</h2>
 
-        <p className={styles.subtitle}>
+        <p className={styles.subtitulo}>
           Acesse sua conta e organize suas tarefas facilmente.
         </p>
 
-        <form className={styles.form}>
-          <input type="email" placeholder="Seu e-mail" required />
-          <input type="password" placeholder="Sua senha" required />
+        <form className={styles.forma}>
+          <input type="email" placeholder="Seu e-mail" />
+          <input type="password" placeholder="Sua senha" />
 
-          <button type="submit" className={styles.btn}>Login</button>
+          <button type="submit" className={styles.botao}>Login</button>
         </form>
 
-        <p className={styles.registerText}>
-          Não tem conta? <a href="#cadastro">Criar conta</a>
+        <p className={styles.registrar}>
+          Não tem conta? <a href="/cadastro">Criar conta</a>
         </p>
 
       </div>

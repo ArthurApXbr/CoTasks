@@ -1,4 +1,5 @@
 import styles from './css/Header.module.css';
+import { Link } from "react-router-dom";
 import Logo_CoTask from '../assets/imagens/Logo_CoTask.png';
 
 function Header() {
@@ -17,9 +18,13 @@ function Header() {
                 </ul>
             </nav>
 
-            <div class={styles.usuarios}>
-                <button class={styles.login}>Login</button>
-                <button class={styles.cadastrar}>Cadastrar</button>
+            <div className={styles.usuarios}>
+                <Link to="/login">
+                    <button className={styles.login}>Login</button>
+                </Link>
+                <Link to="/cadastro">
+                    <button className={styles.cadastrar}>Cadastrar</button>
+                </Link>
             </div>
         </header>
 

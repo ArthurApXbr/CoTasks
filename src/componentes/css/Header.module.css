@@ -71,20 +71,3 @@ nav ul li a:hover {
 .cadastrar:hover {
     background-color: #0056b3;
 }
-
-        /* Responsivo simples */
-@media(max-width: 768px){
-    nav ul {
-        gap: 15px;
-    }
-
-    header {
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .usuarios {
-        margin-top: 10px;
-    }
-}

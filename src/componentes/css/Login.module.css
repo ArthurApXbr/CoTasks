@@ -1,14 +1,11 @@
-/* SEÇÃO GERAL */
-.loginSection {
-  background: #0b0e11; /* mesmo estilo escuro do footer */
-  min-height: 100vh;
+.secaologin {
+  background: #002b5c;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
 }
 
-/* CARD DE LOGIN */
 .card {
   background: #111418;
   padding: 40px 35px;
@@ -20,46 +17,40 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
 }
 
-/* TÍTULO */
-.title {
+.titulo {
   font-size: 28px;
   font-weight: 700;
   color: #4db5ff; /* azul usado no footer */
   margin-bottom: 10px;
 }
 
-/* SUBTÍTULO */
-.subtitle {
+.subtitulo {
   font-size: 15px;
   color: #d0d5dd;
   margin-bottom: 30px;
 }
 
-/* FORM / INPUTS */
-.form {
+.forma {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.form input {
+.forma input {
   padding: 14px;
   border-radius: 10px;
   border: 2px solid #1f252c;
   background: #0f1317;
   color: white;
   font-size: 15px;
-  outline: none;
-  transition: 0.2s;
 }
 
-.form input:focus {
+.forma input {
   border-color: #4db5ff;
 }
 
-/* BOTÃO */
-.btn {
-  background: #4db5ff; /* azul igual ao footer */
+.botao {
+  background: #4db5ff;
   padding: 12px;
   border: none;
   border-radius: 10px;
@@ -67,22 +58,20 @@
   color: #0b0e11;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.2s;
 }
 
-.btn:hover {
+.botao:hover {
   background: #3aa7f0;
 }
 
-/* TEXTO REGISTRAR */
-.registerText {
+.registrar {
   margin-top: 15px;
   font-size: 14px;
   color: #cccccc;
 }
 
-.registerText a {
-  color: #f2d14f; /* amarelo usado no footer */
+.registrar a {
+  color: #f2d14f;
   font-weight: bold;
   text-decoration: none;
 }
