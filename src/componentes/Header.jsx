@@ -13,8 +13,8 @@ function Header() {
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Planos</a></li>
                 </ul>
             </nav>
 

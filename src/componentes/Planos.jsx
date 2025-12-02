@@ -10,7 +10,6 @@ function Planos() {
 
       <div className={styles.cardsContainer}>
 
-        {/* PLANO BÁSICO */}
         <div className={styles.card}>
           <h3>Plano Básico</h3>
           <p className={styles.preco}>Grátis</p>
@@ -29,11 +28,10 @@ function Planos() {
           <button>Começar Agora</button>
         </div>
 
-        {/* PLANO PRO (DESTAQUE) */}
         <div className={styles.card}>
 
           <h3>Plano Pro</h3>
-          <p className={styles.preco}>R$ 14,90/mês</p>
+          <p className={styles.preco}>R$ 14,99/mês</p>
           <p className={styles.desc}>
             Para quem quer mais controle, personalização e eficiência no dia a dia.
           </p>
@@ -49,10 +47,9 @@ function Planos() {
           <button className={styles.btnDestaque}>Assinar Agora</button>
         </div>
 
-        {/* PLANO EQUIPE */}
         <div className={styles.card}>
           <h3>Plano Equipe</h3>
-          <p className={styles.preco}>R$ 29,90/mês</p>
+          <p className={styles.preco}>R$ 29,99/mês</p>
           <p className={styles.desc}>
             Perfeito para grupos, equipes e projetos colaborativos.
           </p>
@@ -70,7 +67,7 @@ function Planos() {
 
       </div>
     </section>
-  );
+  )
 }
 
 export default Planos;

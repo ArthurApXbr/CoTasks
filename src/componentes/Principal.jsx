@@ -3,7 +3,6 @@ import imagemPrincipal from '../assets/imagens/Lado_da_home_page.png'
 
 function Principal() {
     return (
-
         <section class={styles.principal}>
             <div class={styles.principal_texto}>
                 <h1>Organize suas tarefas sozinho ou em conjunto</h1>
@@ -16,10 +15,8 @@ function Principal() {
             <div class={styles.principal_imagem}>
                 <img src={imagemPrincipal} alt="Imagem Principal" />
             </div>
-
             
         </section>
-
     )
 }
 

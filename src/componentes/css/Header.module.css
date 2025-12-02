@@ -4,7 +4,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-        /* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -14,12 +13,10 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-        /* Logo */
 .logo img {
     height: 50px;
 }
 
-        /* Menu de navegação */
 nav {
     flex: 1;
     text-align: center;
@@ -40,7 +37,6 @@ nav ul li a:hover {
     color: #007BFF;
 }
 
-        /* Botões de login/cadastro */
 .usuarios {
     display: flex;
     gap: 10px;
