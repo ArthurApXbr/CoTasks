@@ -9,7 +9,7 @@ function Cadastro() {
                 <h2>Crie sua conta</h2>
                 <p className={styles.subtitulo}>Comece a organizar suas tarefas com o CoTask</p>
 
-                <form className={styles.form}>
+                <form className={styles.forma}>
                     <label>Nome Completo</label>
                     <input type="text" placeholder="Digite seu nome" />
 
@@ -19,10 +19,13 @@ function Cadastro() {
                     <label>Senha</label>
                     <input type="password" placeholder="Crie uma senha" />
 
-                    <button className={styles.btnCadastrar}>Cadastrar</button>
+                    <Link to="/">
+                        <button className={styles.Cadastrar}>Cadastrar</button>
+                    </Link>
+                    
                 </form>
 
-                <p className={styles.loginLink}>
+                <p className={styles.login}>
                     Já tem conta? <Link to="/login">Fazer Login</Link>
                 </p>
             </div>

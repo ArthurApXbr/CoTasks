@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.lista {
+    width: 500px;
+    margin: 60px;
+    padding: 30px;
+    border-radius: 18px;
+    border: black 1px solid;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.lista h1 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.lista p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.caixa input {
+    padding: 14px 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #faf7ff;
+}
+
+.caixa input {
+    border-color: #007bff;
+    background-color: #ffffff;
+    outline: none;
+}

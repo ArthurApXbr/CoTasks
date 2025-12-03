@@ -44,7 +44,7 @@ function Footer() {
 
       </div>
 
-      <div className={styles.copy}>
+      <div className={styles.copyright}>
         <p> © CoTask • Todos os direitos reservados </p>
       </div>
 

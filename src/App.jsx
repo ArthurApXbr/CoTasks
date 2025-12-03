@@ -13,6 +13,8 @@ import Footer from './componentes/Footer';
 import Login from './componentes/Login';
 import Cadastro from './componentes/Cadastro';
 
+import Criarlista from './componentes/Criarlista';
+
 function App() {
 
   return (
@@ -37,6 +39,7 @@ function App() {
 
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/criar-lista" element={<Criarlista />} />
 
       </Routes>
 
